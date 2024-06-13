@@ -1,6 +1,6 @@
 @font-face{
-    font-family: 'UniversLTStd';
-    src: url('Fonts/UniversLTStd-Bold.ttf');
+    font-family: 'TuskerGrotesk';
+    src: url('Fonts/TuskerGrotesk-Bold.ttf');
 }
 
 * {
@@ -12,7 +12,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'UniversLTStd';
+    font-family: 'TuskerGrotesk';
 }
 
 #main::-webkit-scrollbar{
@@ -26,7 +26,7 @@ html, body {
 }
 
 .heading{
-    width: 70%;
+    /* width: 70%; */
     position: absolute;
     z-index: 999;
     top: 10%;
@@ -34,6 +34,7 @@ html, body {
     transform: translate(-50%);
     font-size: 4.6vw;
     text-align: center;
+    font-weight: 500;
 }
 
 .before-background{
