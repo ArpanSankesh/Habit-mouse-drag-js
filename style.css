@@ -14,8 +14,20 @@ html, body {
     height: 100vh;
 }
 
-.background{
+.before-background{
     width: 100vw;
     height: 100vh;
+    background-image:url('asset/Before.png') ;
+    background-size: cover;
+    background-position: center;
+}
+
+.after-background{
+    width: 10vw;
+    height: 100%;
+    background-image: url('asset/After.png');
+    background-size: 100vw;
+    background-position: left;
+    border-right: 3px solid #3d1bff;
 }
 
