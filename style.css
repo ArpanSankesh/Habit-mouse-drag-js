@@ -26,15 +26,17 @@ html, body {
 }
 
 .heading{
-    /* width: 70%; */
+    width: 70%;
     position: absolute;
     z-index: 999;
-    top: 10%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%);
-    font-size: 4.6vw;
+    font-size: 3.8vw;
     text-align: center;
     font-weight: 500;
+    line-height: 70px;
+    color: #3d1bff;
 }
 
 .before-background{
